@@ -1,0 +1,32 @@
+{
+    "name": "jankx/notification-system-extension",
+    "description": "Jankx Notification System: multi-channel notifications with database master data + email mirror",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jankx\\Extensions\\NotificationSystem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jankx\\Extensions\\NotificationSystem\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "brain/monkey": "^2.6",
+        "mockery/mockery": "^1.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}

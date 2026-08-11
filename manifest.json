@@ -1,0 +1,22 @@
+{
+    "name": "Notification System",
+    "description": "Multi-channel notification system with database master data and email mirror. Provides a registration API for third-party notification channels (Telegram, Slack, etc.).",
+    "version": "1.0.0",
+    "author": "Puleeno Nguyen",
+    "extension_id": "notification-system",
+    "caller": {
+        "file": "NotificationSystemExtension.php",
+        "class": "Jankx\\Extensions\\NotificationSystem\\NotificationSystemExtension"
+    },
+    "requirements": {
+        "php": ">=7.4"
+    },
+    "context": [
+        "frontend",
+        "admin",
+        "ajax",
+        "rest"
+    ],
+    "auto_activate": true,
+    "settings_url": "admin.php?page=jankx-notification-settings"
+}
